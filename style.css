@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+main{
+    background: linear-gradient(#2ba4c8, #1d4f8f, #0f2846);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.introducao-relogio{
+    font-size: 30px;
+    color: #fffafa;
+    margin-top: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.relogio{
+    color: #fffafa;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+@media screen and (min-width: 460px) {
+    .relogio{
+        font-size: 6rem;
+        margin: 1rem;
+    }
+    .introducao-relogio{
+        font-size: 40px;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .relogio{
+        font-size: 10rem;
+        margin: 1.4rem;
+    }
+    .introducao-relogio{
+        font-size: 50px;
+    }
+}
